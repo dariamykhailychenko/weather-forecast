@@ -1,0 +1,86 @@
+.header-block {
+    padding: 15px 30px;
+    background-color: #1e1594;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.form-search {
+    display: flex;
+}
+
+.input-search {
+    width: 250px;
+    height: 40px;
+    padding: 12px 20px 12px 40px;
+    color: #8a8787;
+    background-image: url('/src/assets/icons/icon_search.png');
+    background-position: 11px 11px; 
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255);
+}
+
+.dropdown {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    transition: all .5s ease;
+    position: relative;
+}
+
+.dropdown .dropdown-menu {
+    width: 250px;
+    max-height: 144px;
+    margin-top: 1px;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 2px 2px;
+    z-index: 9;
+    overflow: hidden;
+    overflow-y: auto;
+    position: absolute;
+}
+
+.dropdown .dropdown-menu li {
+    padding: 10px;
+    color: #747474;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+} 
+
+.dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown .dropdown-menu li:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2;
+}
+
+.button-search {
+    height: 40px;
+    width: 80px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #747474;
+}
+
+.cityName {
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+}
